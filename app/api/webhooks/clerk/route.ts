@@ -1,4 +1,6 @@
-// app/api/webhooks/clerk/route.ts
+/* 
+? app/api/webhooks/clerk/route.ts
+
 import { verifyWebhook } from "@clerk/nextjs/webhooks";
 import { prisma } from "@/lib/prisma";
 import { NextRequest } from "next/server";
@@ -36,3 +38,4 @@ export async function POST(req: NextRequest) {
 
   return new Response("ok", { status: 200 });
 }
+*/
